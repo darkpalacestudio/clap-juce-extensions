@@ -2021,7 +2021,7 @@ class ClapJuceWrapper : public clap::helpers::Plugin<
             }
         }
 
-        void paint(juce::Graphics &g) override { g.fillAll(juce::Colours::red); }
+        void paint(juce::Graphics &g) override { }
         void resized() override
         {
             if (editor != nullptr)
